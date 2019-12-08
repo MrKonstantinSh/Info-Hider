@@ -9,6 +9,8 @@ public:
     ImageContainer(const QString pathToImgContainer);
     QPixmap getImgContainer();
     QString getImgContainerResolution();
+    int getWidth();
+    int getHeight();
 private:
     QPixmap imgContainer;
     QString pathToImgContainer;

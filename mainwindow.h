@@ -20,6 +20,12 @@ private slots:
     void on_pbUploadImage_clicked();
     void on_teTextToHide_textChanged();
 
+    void on_pbHideInfo_clicked();
+
+    void on_pbUploadImageWithData_clicked();
+
+    void on_pbExtractData_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

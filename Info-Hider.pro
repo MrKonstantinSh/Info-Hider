@@ -16,6 +16,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    Model/arc4.cpp \
     Model/imagecontainer.cpp \
     Model/lsbsteganography.cpp \
     Model/texttohide.cpp \
@@ -23,6 +24,7 @@ SOURCES += \
     mainwindow.cpp
 
 HEADERS += \
+    Model/arc4.h \
     Model/imagecontainer.h \
     Model/lsbsteganography.h \
     Model/texttohide.h \

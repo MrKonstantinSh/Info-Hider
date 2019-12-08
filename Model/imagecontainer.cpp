@@ -22,3 +22,13 @@ QString ImageContainer::getImgContainerResolution()
 {
     return this->imgContainerResolution;
 }
+
+int ImageContainer::getWidth()
+{
+    return this->imgContainer.size().width();
+}
+
+int ImageContainer::getHeight()
+{
+    return this->imgContainer.size().height();
+}
